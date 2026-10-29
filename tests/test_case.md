@@ -21,7 +21,7 @@ Hasil aktual diisi berdasarkan pengujian langsung di VS Code.
 
 | Kode | Hasil Aktual | Status |
 |---|---|---|
-| TC01 | Isi sesuai hasil yang muncul di terminal | Isi setelah diuji |
+| TC01 | Nilai 80, 70, dan 90 menghasilkan rata-rata 80.00, nilai tertinggi 90.00, dan nilai terendah 70.00. | Berhasil |
 | TC02 | Nilai 0 diterima. Rata-rata, nilai tertinggi, dan terendah 0.00. Status Belum Lulus. | Berhasil |
 | TC03 | Nilai 100 diterima. Rata-rata, nilai tertinggi, dan terendah 100.00. Status Lulus. | Berhasil |
 | TC04 | Nilai 105 ditolak. Nilai 80 diterima dan status Lulus. | Berhasil |
