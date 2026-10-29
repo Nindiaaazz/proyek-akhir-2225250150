@@ -1,0 +1,9 @@
+LAPORAN ANALISIS NILAI MATEMATIKA
+========================================
+Nama: Ani, Nilai: 80.00, Status: Lulus
+
+Rata-rata: 80.00
+Nilai tertinggi: 80.00
+Nilai terendah: 80.00
+Jumlah siswa lulus: 1
+Jumlah siswa belum lulus: 0
