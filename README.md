@@ -12,7 +12,7 @@ Program ini dibuat untuk membantu guru menganalisis nilai matematika siswa secar
 ## Fitur
 1. Memasukkan nama dan nilai siswa.
 2. Memvalidasi nilai dalam rentang 0–100.
-3. Menghitung statistik nilai.
+3. Menghitung rata-rata, nilai tertinggi, dan nilai terendah.
 4. Menentukan status kelulusan siswa.
 5. Menyimpan laporan ke file teks.
 
@@ -21,46 +21,53 @@ Program ini dibuat untuk membantu guru menganalisis nilai matematika siswa secar
 - Visual Studio Code
 - Git dan GitHub
 
-## Cara Menjalankan
-Petunjuk menjalankan program akan dilengkapi setelah kode Python selesai dibuat.
-
-## Hasil Pengujian
-Hasil pengujian akan dicatat setelah program selesai dijalankan dan diuji.
-
-## Identitas Proyek
-- Nama proyek: Program Analisis Nilai Matematika Siswa Berbasis Python
-- Repository: `proyek-akhir-2225250150`
+## Struktur Proyek
+```text
+proyek-akhir-2225250150/
+├── README.md
+├── proposal.md
+├── .gitignore
+├── laporan_nilai.txt
+├── src/
+│   └── main.py
+└── tests/
+    └── test_case.md
+```
 
 ## Cara Menjalankan Program
-
-1. Pastikan Python sudah terpasang di komputer.
-2. Buka folder proyek di Visual Studio Code.
-3. Buka terminal melalui menu Terminal > New Terminal.
+1. Pastikan Python sudah terpasang.
+2. Buka folder proyek di VS Code.
+3. Pilih menu **Terminal > New Terminal**.
 4. Jalankan perintah berikut:
 
-   ```powershell
+   ```bash
    python src/main.py
    ```
 
-5. Masukkan jumlah siswa, nama siswa, dan nilai matematika sesuai petunjuk program.
-6. Periksa hasil analisis yang muncul di terminal.
+   Jika perintah `python` tidak dikenali, coba:
 
-Jika perintah `python` tidak dikenali, coba gunakan `py src/main.py`.
+   ```bash
+   py src/main.py
+   ```
+
+5. Masukkan jumlah siswa, nama siswa, dan nilai matematika.
+6. Lihat hasil analisis yang ditampilkan di terminal.
 
 ## Pengujian Program
+Program diuji dengan delapan skenario:
+1. TC01: nilai normal (80, 70, 90).
+2. TC02: nilai minimum (0).
+3. TC03: nilai maksimum (100).
+4. TC04: nilai di atas batas (105).
+5. TC05: input teks (`abc`).
+6. TC06: nilai sama dengan KKM (75).
+7. TC07: semua siswa lulus.
+8. TC08: jumlah siswa tidak valid (0).
 
-Program direncanakan dan diuji menggunakan delapan skenario:
-1. TC01: Menguji perhitungan nilai normal.
-2. TC02: Menguji nilai minimum, yaitu 0.
-3. TC03: Menguji nilai maksimum, yaitu 100.
-4. TC04: Menguji penolakan nilai di atas 100.
-5. TC05: Menguji input nilai berupa teks.
-6. TC06: Menguji nilai yang sama dengan KKM 75.
-7. TC07: Menguji kondisi semua siswa lulus.
-8. TC08: Menguji jumlah siswa yang tidak valid.
-
-Rincian hasil aktual setiap pengujian dicatat dalam file `tests/test_case.md`.
+Hasil aktual setiap pengujian dicatat dalam file `tests/test_case.md`.
 
 ## File Laporan
+Setelah program dijalankan, hasil analisis disimpan dalam file `laporan_nilai.txt` di direktori kerja tempat program dijalankan.
 
-Setelah program selesai dijalankan, laporan analisis disimpan dalam file `laporan_nilai.txt` di direktori kerja tempat program dijalankan.
+## Repository GitHub
+https://github.com/Nindiaaazz/proyek-akhir-2225250150

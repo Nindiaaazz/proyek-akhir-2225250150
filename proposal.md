@@ -115,31 +115,30 @@ SELESAI
 
 ### 8. Struktur Program
 
-Program direncanakan memiliki beberapa fungsi berikut:
-- `input_data()`: menerima data siswa.
-- `validasi_nilai()`: memeriksa validitas nilai.
-- `hitung_statistik()`: menghitung rata-rata, nilai tertinggi, dan nilai terendah.
-- `tentukan_status()`: menentukan status kelulusan siswa.
-- `tampilkan_laporan()`: menampilkan hasil analisis.
-- `simpan_laporan()`: menyimpan laporan ke file teks.
-- `main()`: menjalankan keseluruhan program.
+Program dibuat menggunakan Python dengan satu file utama, yaitu `src/main.py`. File tersebut terdiri atas beberapa fungsi berikut:
 
-Rencana struktur folder:
+1. `input_data()`, untuk menerima dan memvalidasi jumlah siswa, nama siswa, serta nilai matematika.
+2. `hitung_statistik()`, untuk menghitung rata-rata, nilai tertinggi, dan nilai terendah.
+3. `tentukan_status()`, untuk menentukan status kelulusan siswa berdasarkan KKM 75.
+4. `tampilkan_laporan()`, untuk menampilkan hasil analisis nilai siswa.
+5. `simpan_laporan()`, untuk menyimpan hasil analisis ke dalam file teks.
+6. `main()`, untuk menjalankan keseluruhan proses program.
+
+Struktur folder proyek adalah sebagai berikut:
 
 ```text
 proyek-akhir-2225250150/
 ├── README.md
 ├── proposal.md
 ├── .gitignore
+├── laporan_nilai.txt
 ├── src/
-│   ├── main.py
-│   ├── analisis.py
-│   └── utilitas.py
-├── tests/
-│   └── test_case.md
-└── output/
-    └── .gitkeep
+│   └── main.py
+└── tests/
+    └── test_case.md
 ```
+
+Struktur tersebut memisahkan kode program utama, dokumentasi proyek, dan dokumentasi pengujian agar lebih mudah dipahami dan dikelola.
 
 ### 9. Struktur Data
 Struktur data yang digunakan:
@@ -161,7 +160,7 @@ Struktur data yang digunakan:
 | TC07 | Semua siswa lulus | 80, 85, 90 | Semua siswa dinyatakan Lulus |
 | TC08 | Jumlah siswa tidak valid | 0 atau bilangan negatif | Program menolak jumlah siswa |
 
-Pengujian akan dilakukan setelah program selesai dibuat. Hasil pengujian sebenarnya akan dicatat pada dokumentasi proyek.
+Pengujian dilakukan setelah program selesai dibuat dan dijalankan. Hasil aktual pengujian dicatat dalam file `tests/test_case.md` berdasarkan delapan skenario pengujian.
 
 ### 11. Pembagian Tugas
 Proyek ini dikerjakan secara individu. Seluruh proses, mulai dari perancangan, penulisan kode Python, pengujian, perbaikan kesalahan, hingga dokumentasi, dilakukan oleh penulis. AI dapat digunakan sebagai alat bantu, tetapi program tetap dijalankan dan diuji secara mandiri.
@@ -177,4 +176,4 @@ Proyek ini dikerjakan secara individu. Seluruh proses, mulai dari perancangan, p
 ### 13. Repository GitHub
 Nama repository: `proyek-akhir-2225250150`
 
-URL repository: Diisi setelah repository dibuat di GitHub.
+URL repository GitHub: https://github.com/Nindiaaazz/proyek-akhir-2225250150
