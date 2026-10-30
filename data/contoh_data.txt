@@ -1,8 +1,0 @@
-Nama: Andi
-Nilai: 80
-
-Nama: Budi
-Nilai: 70
-
-Nama: Citra
-Nilai: 90
